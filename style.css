@@ -1,0 +1,232 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.titulo-header{
+    top: 15vh;
+    right: 20vh;
+    position: absolute;
+    color: rgb(167, 112, 10);
+    font-size: 130px;
+    font-family: 'BD Gitalona', sans-serif;
+}
+
+.nav-bar{
+    padding: 15px ;
+}
+
+.nav-bar a{
+    color: rgb(167, 112, 10);
+    font-size: 22px;
+    text-decoration: none;
+    padding: 8px;
+    transition: all 2ms;
+}
+
+.nav-bar a:hover{
+    color: beige;
+}
+
+.container-img-header{
+    position: relative;
+    top: 20vh;
+    left: 10vh;
+    width: 90vh;
+    height: 85vh;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(124, 124, 124, 0.11) ;
+}
+
+.img-header{
+    object-fit: cover;
+    width: 90vh;
+    height: 85vh;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.section-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box-1-sec{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 90%;
+    height: 60vh;
+    border: groove 2px rgb(167, 112, 10);
+    border-radius: 2vh;
+    overflow: hidden;
+}
+
+.section-1 h2{
+    font-size: 42px;
+    margin-top: 5vh;
+    color: rgb(167, 112, 10);
+    border-bottom: dotted 1px rgb(167, 112, 10);
+}
+
+.img-sec1{
+    width: 90vh;
+    border-radius: 5%;
+}
+
+
+.texto-box1-sec{
+    color: white;
+    font-size: 18px;
+}
+
+.container-texto-1{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 25px;
+}
+
+
+.section-2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.box-2-sec{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 60vh;
+    border: groove 2px rgb(167, 112, 10);
+    border-radius: 2vh;
+    overflow: hidden;
+}
+
+.section-2 h2{
+    font-size: 45px;
+    margin-top: 5vh;
+    color: rgb(167, 112, 10);
+    border-bottom: dotted 1px rgb(167, 112, 10);
+}
+
+.img-sec2{
+    width: 90vh;
+    border-radius: 5%;
+}
+
+
+.texto-box2-sec{
+    color: white;
+    font-size: 18px;
+}
+
+.container-texto-2{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 25px;
+}
+
+.section-3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box-3-sec{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 90%;
+    height: 60vh;
+    border: groove 2px rgb(167, 112, 10);
+    border-radius: 2vh;
+    overflow: hidden;
+}
+
+.section-3 h2{
+    font-size: 45px;
+    margin-top: 5vh;
+    color: rgb(167, 112, 10);
+    border-bottom: dotted 1px rgb(167, 112, 10);
+}
+
+.img-sec3{
+    width: 90vh;
+    border-radius: 5%;
+}
+
+
+.texto-box3-sec{
+    color: white;
+    font-size: 18px;
+}
+
+.container-texto-3{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 25px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
+
+footer h2{
+    font-size: 35px;
+    color: rgb(167, 112, 10);
+}
+
+.fa-brands{
+    color: rgb(167, 112, 10);
+    font-size: 5vh;
+    padding: 15px;
+    transition: all 2ms
+}
+
+.fa-brands:hover{
+    color: white;
+}
+
+footer li{
+    list-style: none;
+}
